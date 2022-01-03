@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap link here -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    
+
+<div class="container py-5 border">
+    <div class="row">
+<!-- Age calculation start here -->
+        <div class="col-lg-6 col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Age Calculation</h2>
+                </div>
+                <div class="card-body">
+                    <form id="form_signup">
+                        <div class="form-group">
+                              <input type="text" class="form-control" id="name" placeholder="Enter Name">
+                        </div>
+
+                        <div class="form-group">
+                          <input type="text" class="form-control" id="year" placeholder="Birth Year">
+                        </div>
+                        <button id="checkage" type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                </div>
+                <div class="card-footer">
+                    <p id="ageresult"></p>
+                </div>
+            </div>
+        </div>
+<!-- Age calculation end here -->
+
+
+<!-- Currency convert start here -->
+        <div class="col-lg-6 col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Currency Converter</h2>
+                </div>
+                <div class="card-body">
+                    <form id="form_signup1">
+                        <div class="form-group">
+                          <label for="amount"> Amount</label>
+                          <input type="text" class="form-control" id="amount" placeholder="Enter amount">
+                        </div>
+                        <div class="form-group">
+                                <div class="form-group">
+                                    <label for="currency"> Select Currency</label>
+                                  <select class="form-control" id="currency">
+                                    <option value="">-Select-</option>
+                                    <option value="Pound">Pound </option>
+                                    <option value ="USD">USD</option>
+                                    <option value="Euro">Euro</option>
+                                    <option value="CAD">CAD</option>
+                                  </select>
+                                </div>
+                        <button id="check" type="submit" class="btn btn-primary">Convert</button>
+                      </form>
+                      <div class="card-footer">
+                          <p id="result"></p>
+                      </div>
+                </div>
+            </div>
+        </div>
+<!-- Currrency calculation end here -->
+
+    </div>
+</div>
+
+
+
+<!-- Marriage age calculation start here-->
+<div class="container py-5 m-auto">
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Marriage Age Calculation</h2>
+                </div>
+                <div class="card-body">
+                    <form id="form_signup2">
+                        <div class="form-group">
+                          <input type="text" class="form-control" id="name1" placeholder="Enter Name">
+                        </div>
+
+                        <div class="form-group">
+                        <input type="text" class="form-control" id="year1" placeholder="Birth Year">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="">Select Gender</label>
+                            <select class="form-control" id="gender">
+                                <option value="Select">-Select-</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                              </select>                        
+                        </div>
+                        <button id="agecheck1" type="submit" class="btn btn-primary">Check</button>
+                      </form>
+                </div>
+                <div class="card-footer">
+                    <p id="ageresult1"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Marriage age calculation end here-->
+
+
+
+<!-- Js links here -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
+
+    <script src="./assets/functions.js"></script>
+    <script src="./assets/main.js"></script>
+
+
+</body>
+</html>
